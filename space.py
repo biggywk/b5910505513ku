@@ -13,7 +13,7 @@ class SpaceGameWindow(arcade.Window):
         self.ship.set_position(100,100)
 
 
-    def on+fraw(self):
+    def on_draw(self):
         arcade.start_render()
         
         self.ship.draw()
