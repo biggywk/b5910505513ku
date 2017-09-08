@@ -8,6 +8,10 @@ class SpaceGameWindow(arcade.Window):
         super().__init__(width,height)
 
         arcade.set_background_color(arcade.color.BLACK)
+        
+        self.ship = arcade.Sprite('image/ship.png')
+        self.ship.set_position(100,100)
+
 
     def on+fraw(self):
         arcade.start_render()
