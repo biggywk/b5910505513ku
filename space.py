@@ -19,5 +19,5 @@ class SpaceGameWindow(arcade.Window):
         self.ship.draw()
 
 if __name__=='__main__':
-    window = SpaceGameWindow(SCREEN_Width,SCREEN_HEIGHT)
+    window = SpaceGameWindow(SCREEN_WIDTH,SCREEN_HEIGHT)
     arcade.run()
