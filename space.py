@@ -9,7 +9,7 @@ class SpaceGameWindow(arcade.Window):
 
         arcade.set_background_color(arcade.color.BLACK)
         
-        self.ship = arcade.Sprite('images/ship.png')
+        self.ship = arcade.Sprite('ship.png')
         self.ship.set_position(100,100)
 
 
